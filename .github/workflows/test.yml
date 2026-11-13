@@ -1,0 +1,8 @@
+name: Serverless Linux Demo
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Running on a serverless Linux compute!" && uname -a
+
